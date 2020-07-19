@@ -16,10 +16,10 @@ html{
 }
 
 h1 {
-    color:lightblue;
+    color:blue;
     font-family: 'Roboto', sans-serif;    
     text-align: justify;
-}
+}    
 
 h3{
     font-family: 'Roboto', sans-serif;}
@@ -50,10 +50,16 @@ h3{
 }
 
 .light{
-    background-color: alice;
+    background-color: aliceblue;
 }
 
 
 img{
-    width: 200px;
+    width: 14.45%;
+    box-shadow: 3px 3px 7px black;
+    margin: 1%;
+}
+
+#img-1 {
+    display: none;
 }

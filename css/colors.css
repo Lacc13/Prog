@@ -1,0 +1,25 @@
+#colorDiv {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 255, 0.158);
+}
+
+html{
+    background: url(../img/bg.jpg) no-repeat;
+}
+
+/*
+2 es szamrendszer: 01
+3 as szamrendszer: 012
+10 es szamrendszer: 0123456789
+16 os szamrendszer: 0123456789ABCDEF
+
+255 (10) = FF (16)
+
+(10) 255 = 2*100 + 5*10 + 5*1
+(16) FF = F*16 + F*1 = 15*16 + 15*1 = 255
+rgb(255, 255, 255,) = #FFFFFF
+*/
+
+
